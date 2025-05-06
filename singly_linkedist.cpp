@@ -1,13 +1,22 @@
 #include <iostream>
 using namespace std;
 
-//membuat Class mode
+//Membuat class node
 class Node
 {
+public:
     int noMhs;
     Node *next;
 };
 
+class LinkedList
+{
+    Node *START;
 
+public: 
+    LinkedList()
+    {
+        START = NULL;
+    }
 
-
+    
